@@ -1,0 +1,24 @@
+{
+  "name": "dp-com",
+  "version": "1.0.0",
+  "description": "Rework of Personal Website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app; node-sass --watch style/scss -o style/css",
+    "scss": "node-sass --watch style -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanThePutzer/dp-com.git"
+  },
+  "author": "Daniel Putzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanThePutzer/dp-com/issues"
+  },
+  "homepage": "https://github.com/DanThePutzer/dp-com#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-sass": "^4.9.4"
+  }
+}
