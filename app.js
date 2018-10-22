@@ -8,8 +8,6 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/index.html'));
 });
 
-app.use("/styles", express.static(__dirname + '/styles'));
-
 app.listen(3000, () => {
   console.log('Server online at Port 3000');
 });
