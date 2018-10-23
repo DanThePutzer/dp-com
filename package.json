@@ -4,7 +4,8 @@
   "description": "Rework of Personal Website",
   "main": "app.js",
   "scripts": {
-    "start": "node app node-sass -o css css -w"
+    "start": "node app",
+    "sass": "node-sass -w style/scss/ -o style/css/"
   },
   "repository": {
     "type": "git",
