@@ -1,9 +1,11 @@
-.test {
+// Color Variables
 
-  h1 {
-    color: red;
-  }
-  p {
-    color: blue;
-  }
+:root {
+  --background: #FAFAFA;
+}
+
+// Main Stylesheet
+
+body {
+  background: var(--background)
 }

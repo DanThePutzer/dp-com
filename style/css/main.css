@@ -1,6 +1,5 @@
+:root {
+  --background: #FAFAFA; }
 
-.test h1 {
-  color: red; }
-
-.test p {
-  color: blue; }
+body {
+  background: var(--background); }
