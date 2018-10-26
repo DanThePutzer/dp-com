@@ -4,7 +4,8 @@
   "description": "Rework of Personal Website",
   "main": "app.js",
   "scripts": {
-    "start": "node app",
+    "start": "concurrently \"npm run server\" \"npm run sass\"",
+    "server": "node app",
     "sass": "node-sass -w public/style/scss/ -o public/style/css/"
   },
   "repository": {
@@ -18,7 +19,10 @@
   },
   "homepage": "https://github.com/DanThePutzer/dp-com#readme",
   "dependencies": {
+    "concurrently": "^4.0.1",
     "express": "^4.16.4",
-    "node-sass": "^4.9.4"
+    "mongodb": "^3.1.8",
+    "node-sass": "^4.9.4",
+    "vue": "^2.5.17"
   }
 }

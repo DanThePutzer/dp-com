@@ -1,6 +1,7 @@
 
-// Setting up Express
-const express = require('express')
+/* Express Stuff */
+
+const express = require('express');
 const app = express();
 const path = require('path');
 

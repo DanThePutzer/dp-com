@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'dansfont';
+    src: url('hinted-dansfont.eot');
+    src: url('hinted-dansfont.eot?#iefix') format('embedded-opentype'),
+        url('hinted-dansfont.woff2') format('woff2'),
+        url('hinted-dansfont.woff') format('woff'),
+        url('hinted-dansfont.ttf') format('truetype'),
+        url('hinted-dansfont.svg#dansfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
