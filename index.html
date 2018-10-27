@@ -11,6 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:700|Roboto:300,700,900" rel="stylesheet">
   </head>
+  
   <body>
     <div id="main">
       <div id="bar">
@@ -27,9 +28,19 @@
         </div>
       </div>
       <div id="body">
-        <div class="big"></div>
+        <div class="big tilt" data-tilt></div>
         <div class="grid">
-          <div class="element one">
+
+          <div v-for="category in categories" :style="{ color: category.color, background: category.background }" class="element tilt" data-tilt>
+            <div>
+              <h2>{{ category.type }}</h2>
+              <h1>{{ category.title }}</h1>
+              <h3 v-if="category.title != ''">{{ category.title }}</h3>
+            </div>
+            <h6 class="dansicon">{{ category.icon }}</h6>
+            <button>{{ category.button }} <h6 class="dansicon" :style="{ color: category.color }">j</h6></button>
+          </div> 
+          <!-- <div class="element one tilt" data-tilt>
             <div>
               <h2>PROJECT</h2>
               <h1>DropSeed</h1>
@@ -37,7 +48,7 @@
             <h6 class="dansicon">h</h6>
             <button>View Project <h6 class="dansicon">j</h6></button>
           </div>
-          <div class="element two">
+          <div class="element two tilt" data-tilt>
             <div>
               <h2>PROJECT</h2>
               <h1>DropSeed</h1>
@@ -45,7 +56,7 @@
             <h6 class="dansicon">g</h6>
             <button>View Project <h6 class="dansicon">j</h6></button>
           </div>
-          <div class="element three">
+          <div class="element three tilt" data-tilt>
             <div>
               <h2>CURRENT READINGS</h2>
               <h1>Big Debt Crises</h1>
@@ -53,7 +64,7 @@
             </div>
             <h6 class="dansicon">i</h6>
             <button>{{ test }} <h6 class="dansicon">j</h6></button>
-          </div>
+          </div> -->
         </div>
         <div class="placeholder"></div>
       </div>

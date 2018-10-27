@@ -4,10 +4,10 @@
   "description": "Rework of Personal Website",
   "main": "app.js",
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run sass\"",
-    "server": "node app",
+    "start": "concurrently \"npm run server\" \"npm run sass\" \"npm run update\"",
+    "server": "nodemon app",
     "sass": "node-sass -w public/style/scss/ -o public/style/css/",
-    "update": "browserify public/scrpt/main.js -o public/scrpt/bundle.js"
+    "update": "watchify public/scrpt/main.js -o public/scrpt/bundle.js -v"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "express": "^4.16.4",
     "mongodb": "^3.1.8",
     "node-sass": "^4.9.4",
+    "nodemon": "^1.18.5",
     "vanilla-tilt": "^1.5.0",
     "vue": "^2.5.17"
   }

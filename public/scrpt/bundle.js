@@ -11609,15 +11609,43 @@ module.exports = Vue;
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("timers").setImmediate)
 },{"_process":1,"timers":2}],5:[function(require,module,exports){
 const VanillaTilt = require('vanilla-tilt');
+const Vue = require('vue');
 
 /* Vue Stuff */
-
-const Vue = require('vue');
 
 var app = new Vue({
   el: "#main",
   data: {
-    test: 'hallo'
+    categories: [
+      {
+        title: "DropSeed",
+        subtitle: "",
+        type: "Project",
+        icon: "h",
+        button: "View Project",
+        color: "#4181FE",
+        background: "url(../../res/back1.svg) center center / cover"
+      }, {
+        title: "Machine Learning",
+        subtitle: "Ray Dalio",
+        type: "Current Studies",
+        icon: "g",
+        button: "View Progress",
+        color: "#42CCBC",
+        background: "url(../../res/back2.svg) center center / cover"
+      }, {
+        title: "Big Debt Crises",
+        subtitle: "Ray Dalio",
+        type: "Current Readings",
+        icon: "i",
+        button: "View Full List",
+        color: "#FF6060",
+        background: "url(../../res/back3.svg) center center / cover"
+      }, 
+    ],
+  },
+  mounted() {
+    VanillaTilt.init(document.querySelectorAll(".tilt"));
   }
 });
 },{"vanilla-tilt":3,"vue":4}]},{},[5]);
