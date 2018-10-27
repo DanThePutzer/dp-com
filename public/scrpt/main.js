@@ -1,8 +1,10 @@
+const VanillaTilt = require('vanilla-tilt');
+
 /* Vue Stuff */
 
-const vue = require('vue');
+const Vue = require('vue');
 
-new Vue({
+var app = new Vue({
   el: "#main",
   data: {
     test: 'hallo'
