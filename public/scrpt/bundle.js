@@ -11611,6 +11611,9 @@ module.exports = Vue;
 const VanillaTilt = require('vanilla-tilt');
 const Vue = require('vue');
 
+/* Importing Components */
+
+
 /* Vue Stuff */
 
 var app = new Vue({
@@ -11620,15 +11623,15 @@ var app = new Vue({
       {
         title: "DropSeed",
         subtitle: "",
-        type: "Project",
+        type: "PROJECT",
         icon: "h",
         button: "View Project",
         color: "#4181FE",
         background: "url(../../res/back1.svg) center center / cover"
       }, {
         title: "Machine Learning",
-        subtitle: "Ray Dalio",
-        type: "Current Studies",
+        subtitle: "",
+        type: "CURRENT STUDIES",
         icon: "g",
         button: "View Progress",
         color: "#42CCBC",
@@ -11636,7 +11639,7 @@ var app = new Vue({
       }, {
         title: "Big Debt Crises",
         subtitle: "Ray Dalio",
-        type: "Current Readings",
+        type: "CURRENT READINGS",
         icon: "i",
         button: "View Full List",
         color: "#FF6060",
@@ -11646,6 +11649,6 @@ var app = new Vue({
   },
   mounted() {
     VanillaTilt.init(document.querySelectorAll(".tilt"));
-  }
+  },
 });
 },{"vanilla-tilt":3,"vue":4}]},{},[5]);

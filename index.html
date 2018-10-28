@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="/style/css/main.css">
     <link rel="stylesheet" href="/style/css/normalize.css">
-    <link rel="stylesheet" href="/icons/stylesheet.css">
+    <link rel="stylesheet" href="/icons/icons.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:700|Roboto:300,700,900" rel="stylesheet">
   </head>
@@ -28,43 +28,27 @@
         </div>
       </div>
       <div id="body">
-        <div class="big tilt" data-tilt></div>
+        <div class="big tilt" data-tilt>
+          <div>
+            <img src="/res/guy.jpg">
+            <h1>Daniel Putzer</h1>
+            <h2>I design and develop things</h2>
+          </div>
+          <div>
+            <div class="info"><h6 class="dansicon">b</h6><p><span>Economics & Business</span>, WU Vienna</p><h5>Current Occupation</h5></div>
+            <div class="info"><h6 class="dansicon">a</h6><p><span>Vienna</span>, Austria</p></div>
+          </div>
+        </div>
         <div class="grid">
-
           <div v-for="category in categories" :style="{ color: category.color, background: category.background }" class="element tilt" data-tilt>
             <div>
               <h2>{{ category.type }}</h2>
               <h1>{{ category.title }}</h1>
-              <h3 v-if="category.title != ''">{{ category.title }}</h3>
+              <h3 v-if="category.subtitle != ''">{{ category.subtitle }}</h3>
             </div>
             <h6 class="dansicon">{{ category.icon }}</h6>
             <button>{{ category.button }} <h6 class="dansicon" :style="{ color: category.color }">j</h6></button>
-          </div> 
-          <!-- <div class="element one tilt" data-tilt>
-            <div>
-              <h2>PROJECT</h2>
-              <h1>DropSeed</h1>
-            </div>
-            <h6 class="dansicon">h</h6>
-            <button>View Project <h6 class="dansicon">j</h6></button>
           </div>
-          <div class="element two tilt" data-tilt>
-            <div>
-              <h2>PROJECT</h2>
-              <h1>DropSeed</h1>
-            </div>
-            <h6 class="dansicon">g</h6>
-            <button>View Project <h6 class="dansicon">j</h6></button>
-          </div>
-          <div class="element three tilt" data-tilt>
-            <div>
-              <h2>CURRENT READINGS</h2>
-              <h1>Big Debt Crises</h1>
-              <h3>Ray Dalio</h3>
-            </div>
-            <h6 class="dansicon">i</h6>
-            <button>{{ test }} <h6 class="dansicon">j</h6></button>
-          </div> -->
         </div>
         <div class="placeholder"></div>
       </div>
