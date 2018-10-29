@@ -1,0 +1,50 @@
+
+/* - - - - Navbar Styling - - - - */
+
+#bar {
+  position: fixed;
+  display: flex;
+  height: 14vh;
+  width: 100vw;
+  padding: 0px 8vw 0px 8vw;
+  align-items: flex-end;
+
+  .container {
+    display: flex;
+    height: 66%;
+    width: 100%;
+    border-bottom: 0.5px dashed $barBorder;
+  
+    .content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 50%;
+      width: 100%;
+  
+      img {
+        height: 80%;
+      }
+  
+      .social {
+        display: flex;
+        width: 120px;
+        margin: 0px 0px 0px auto;
+        justify-content: space-between;
+
+        a {
+          font-family: 'dansfont';
+          font-size: 19px;
+          text-decoration: none;
+          color: #C3C3C3;
+          opacity: 1;
+          transition: 0.2s ease-in-out;
+
+          &:hover {
+            color: #444;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="335px" viewBox="0 0 350 335" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Background</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-905.000000, -228.000000)">
+            <g id="Background" transform="translate(905.000000, 228.000000)">
+                <rect id="Rectangle" fill="#4181FE" x="0" y="0" width="350" height="335"></rect>
+                <path d="M246.591328,201.746581 L282.957782,8.15378937 C283.845971,3.42561333 287.975004,9.80424864e-13 292.78588,9.53903623e-13 L350.000017,9.09494702e-13 L350.000017,335.000704 L-4.54799434e-06,335.000704 L-3.8249204e-07,278.995898 C-1.38239469e-07,275.711944 1.34584155,272.571471 3.72378544,270.306579 L78.82716,198.773752 C89.7010132,188.416861 105.106027,184.320842 119.687809,187.909369 L227.042906,214.329089 C235.623447,216.440731 244.291174,211.196651 246.402816,202.61611 C246.473702,202.32807 246.536563,202.038115 246.591328,201.746581 Z" id="Rectangle" fill="#62BFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
