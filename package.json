@@ -1,0 +1,32 @@
+{
+  "name": "dp-com",
+  "version": "2.0.0",
+  "description": "\"Rework of Personal Website based on Parcel\"",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanThePutzer/dp-com.git"
+  },
+  "author": "Daniel Putzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanThePutzer/dp-com/issues"
+  },
+  "homepage": "https://github.com/DanThePutzer/dp-com#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-sass": "^4.9.4",
+    "parcel-bundler": "^1.10.3",
+    "public": "^0.1.4",
+    "vanilla-tilt": "^1.5.0",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.3.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}

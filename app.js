@@ -6,11 +6,15 @@ import VanillaTilt from 'vanilla-tilt';
 
 /* Importing Components */
 import Square from '/public/components/Square';
+import Spotlight from '/public/components/Spotlight';
+
+import EventBus from '/public/scrpt/bus.js';
 
 new Vue({
   el: "#main",
   data: {
-    categories: [
+    showSpotlight: false,
+    squares: [
       {
         title: "DropSeed",
         subtitle: "",
@@ -36,12 +40,20 @@ new Vue({
         color: "#FF6060",
         class: "reading"
       }, 
-    ],
+    ]
   },
   components: {
-    Square
+    Square, Spotlight
   },
   mounted() {
     VanillaTilt.init(document.querySelectorAll(".tilt"));
+
+    EventBus.$on('openSpotlight', () => {
+			this.showSpotlight = true;
+    });
+    
+    EventBus.$on('closeSpotlight', () => {
+			this.showSpotlight = false;
+		});
   }
 })

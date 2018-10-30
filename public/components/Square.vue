@@ -6,17 +6,24 @@
       <h3 v-if="squareData.subtitle != ''">{{ squareData.subtitle }}</h3>
     </div>
     <h6 class="dansicon">{{ squareData.icon }}</h6>
-    <button>{{ squareData.button }} <h6 class="dansicon" :style="{ color: squareData.color }">j</h6></button>
+    <button @click="openSpotlight">{{ squareData.button }} <h6 class="dansicon" :style="{ color: squareData.color }">j</h6></button>
   </div>
 </template>
 
 <script>
+
+import EventBus from '/public/scrpt/bus.js';
 
 export default {
   props: ['squareData'],
   data() {
     return {
       
+    }
+  },
+  methods: {
+    openSpotlight() {
+			EventBus.$emit('openSpotlight');
     }
   }
 }

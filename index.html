@@ -40,21 +40,15 @@
           </div>
         </div>
         <div class="grid">
-          <!-- <div v-for="category in categories" :style="{ color: category.color, background: category.background }" class="element tilt" data-tilt>
-            <div>
-              <h2>{{ category.type }}</h2>
-              <h1>{{ category.title }}</h1>
-              <h3 v-if="category.subtitle != ''">{{ category.subtitle }}</h3>
-            </div>
-            <h6 class="dansicon">{{ category.icon }}</h6>
-            <button>{{ category.button }} <h6 class="dansicon" :style="{ color: category.color }">j</h6></button>
-          </div> -->
-          <square v-for="category in categories" :square-data="category"></square>
+          <square v-for="square in squares" :square-data="square"></square>
         </div>
         <div class="placeholder"></div>
+
+        <spotlight :class="{ visible: showSpotlight }"></spotlight>
       </div>
     </div>
 
     <script src="app.js"></script>
+    <script src="public/scrpt/bus.js"></script>
   </body>
 </html>
