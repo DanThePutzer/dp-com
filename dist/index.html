@@ -40,11 +40,11 @@
           </div>
         </div>
         <div class="grid">
-          <square v-for="square in squares" :square-data="square"></square>
+          <square v-for="square, index in squares" :square-data="square, index"></square>
         </div>
         <div class="placeholder"></div>
 
-        <spotlight :class="{ visible: showSpotlight }"></spotlight>
+        <spotlight :class="{ visible: showSpotlight }" :spotlight-data="spotlights[activeSpotlight]"></spotlight>
       </div>
     </div>
 

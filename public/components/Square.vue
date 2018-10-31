@@ -15,7 +15,7 @@
 import EventBus from '/public/scrpt/bus.js';
 
 export default {
-  props: ['squareData'],
+  props: ['squareData', 'index'],
   data() {
     return {
       
@@ -23,8 +23,10 @@ export default {
   },
   methods: {
     openSpotlight() {
-			EventBus.$emit('openSpotlight');
+			EventBus.$emit('openSpotlight', this.index);
     }
+  },
+  mounted() {
   }
 }
 </script>

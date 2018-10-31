@@ -114,12 +114,13 @@
   left: 0;
   overflow-y: auto;
   transition: 0.5s ease-in-out;
-  transform: scale(0);
+  transform: scale(0) translateZ(0);
   opacity: 0;
   background: #F8F8F8;
-  transform-origin: 50% 100%; }
+  transform-origin: 50% 100%;
+  z-index: 1000; }
   #spotlight.visible {
-    transform: scale(1);
+    transform: scale(1) translateZ(50px);
     opacity: 1; }
   #spotlight .sidebar {
     position: fixed;
@@ -130,7 +131,6 @@
     width: 50px;
     transform: translate(calc(-40vw - 50px), 100px); }
     #spotlight .sidebar button {
-      color: #4181FE;
       font-size: 40px;
       margin: 20px 0px 0px 0px; }
     #spotlight .sidebar .social {
@@ -158,7 +158,23 @@
       height: 2000px;
       background: white;
       border-radius: 15px;
-      box-shadow: 0px 4px 15px 2px rgba(236, 236, 236, 0.3); }
+      box-shadow: 0px 4px 15px 2px rgba(236, 236, 236, 0.3);
+      padding: 100px 12%; }
+    #spotlight .article .head {
+      display: flex;
+      justify-content: space-between; }
+      #spotlight .article .head h1 {
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 42px;
+        margin: 0px 0px 15px 0px; }
+      #spotlight .article .head h2 {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 22px;
+        color: #6F6F6F; }
+      #spotlight .article .head .dansicon {
+        font-size: 40px; }
   #spotlight .placeholder {
     width: 100%;
     height: 100px; }
@@ -185,6 +201,9 @@ button {
   width: 8vw;
   height: 100%;
   flex-shrink: 0; }
+
+.dansicon {
+  font-weight: 300; }
 
 #body {
   display: flex;

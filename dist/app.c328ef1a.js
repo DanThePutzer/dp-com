@@ -19739,15 +19739,16 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 var _default = {
-  props: ['squareData'],
+  props: ['squareData', 'index'],
   data: function data() {
     return {};
   },
   methods: {
     openSpotlight: function openSpotlight() {
-      _bus.default.$emit('openSpotlight');
+      _bus.default.$emit('openSpotlight', this.index);
     }
-  }
+  },
+  mounted: function mounted() {}
 };
 exports.default = _default;
         var $c951d8 = exports.default || module.exports;
@@ -19860,6 +19861,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 var _default = {
   props: ['spotlightData'],
   data: function data() {
@@ -19885,28 +19894,44 @@ exports.default = _default;
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "spotlight" } }, [
-    _vm._m(0),
-    _vm._v(" "),
-    _c("div", { staticClass: "sidebar" }, [
-      _c("button", { on: { click: _vm.closeSpotlight } }, [
-        _c("h6", { staticClass: "dansicon" }, [_vm._v("j")])
+    _c("div", { staticClass: "article" }, [
+      _c("div", { staticClass: "content" }, [
+        _c("div", { staticClass: "head" }, [
+          _c("div", [
+            _c("h1", [_vm._v(_vm._s(_vm.spotlightData.title))]),
+            _vm._v(" "),
+            _c("h2", [_vm._v(_vm._s(_vm.spotlightData.subtitle))])
+          ]),
+          _vm._v(" "),
+          _c(
+            "h6",
+            {
+              staticClass: "dansicon",
+              style: { color: _vm.spotlightData.color }
+            },
+            [_vm._v("h")]
+          )
+        ])
       ]),
       _vm._v(" "),
-      _vm._m(1)
+      _c("div", { staticClass: "placeholder" })
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "sidebar" }, [
+      _c(
+        "button",
+        {
+          style: { color: _vm.spotlightData.color },
+          on: { click: _vm.closeSpotlight }
+        },
+        [_c("h6", { staticClass: "dansicon" }, [_vm._v("j")])]
+      ),
+      _vm._v(" "),
+      _vm._m(0)
     ])
   ])
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "article" }, [
-      _c("div", { staticClass: "content" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "placeholder" })
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -19976,9 +20001,35 @@ new _vue.default({
   el: "#main",
   data: {
     showSpotlight: false,
+    activeSpotlight: 0,
     squares: [{
       title: "DropSeed",
       subtitle: "",
+      type: "PROJECT",
+      icon: "h",
+      button: "View Project",
+      color: "#4181FE",
+      class: "dropseed"
+    }, {
+      title: "Machine Learning",
+      subtitle: "",
+      type: "CURRENT STUDIES",
+      icon: "g",
+      button: "View Progress",
+      color: "#42CCBC",
+      class: "ml"
+    }, {
+      title: "Big Debt Crises",
+      subtitle: "Ray Dalio",
+      type: "CURRENT READINGS",
+      icon: "i",
+      button: "View Full List",
+      color: "#FF6060",
+      class: "reading"
+    }],
+    spotlights: [{
+      title: "DropSeed",
+      subtitle: "A Framework For Your Ideas",
       type: "PROJECT",
       icon: "h",
       button: "View Project",
@@ -20011,8 +20062,9 @@ new _vue.default({
 
     _vanillaTilt.default.init(document.querySelectorAll(".tilt"));
 
-    _bus.default.$on('openSpotlight', function () {
+    _bus.default.$on('openSpotlight', function (index) {
       _this.showSpotlight = true;
+      _this.activeSpotlight = index;
     });
 
     _bus.default.$on('closeSpotlight', function () {
