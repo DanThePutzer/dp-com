@@ -4,7 +4,8 @@
   "description": "\"Rework of Personal Website based on Parcel\"",
   "main": "app.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html"
   },
   "repository": {
     "type": "git",
