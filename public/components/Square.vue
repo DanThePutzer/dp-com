@@ -6,7 +6,10 @@
       <h3 v-if="squareData.subtitle != ''">{{ squareData.subtitle }}</h3>
     </div>
     <h6 class="dansicon">{{ squareData.icon }}</h6>
-    <button @click="openSpotlight">{{ squareData.button }} <h6 class="dansicon" :style="{ color: squareData.color }">j</h6></button>
+    <button v-if="!locked" @click="openSpotlight">{{ squareData.button }} <h6 class="dansicon" :style="{ color: squareData.color }">j</h6></button>
+    <button v-if="locked" class="lock">
+      Coming Soon
+    </button>
   </div>
 </template>
 
@@ -18,7 +21,7 @@ export default {
   props: ['squareData', 'index'],
   data() {
     return {
-      
+      locked: this.squareData.lock,
     }
   },
   methods: {
@@ -27,6 +30,7 @@ export default {
     }
   },
   mounted() {
+    
   }
 }
 </script>

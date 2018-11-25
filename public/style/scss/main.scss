@@ -129,3 +129,68 @@ button {
     margin: 0px 0px 0px 60px;
   }
 }
+
+/* - - - - - MOBILE - - - - - */
+
+@media screen and (max-width: 800px) {
+
+  // - - Body - -
+
+  #body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    align-self: flex-start;
+    padding: 4vh 6vw 6vh 6vw;
+    margin: 10vh 0px 0px 0px;
+
+    .big {
+      height: 60vh;
+      width: 100%;
+      min-width: 0px;
+      padding: 40px 40px 40px 40px;
+      margin: 0px 0px 30px 0px;
+
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+      }
+
+      h1 {
+        font-size: 20px;
+        margin: 40px 0px 5px 0px;
+      }
+
+      h2 {
+        font-size: 17px;
+      }
+
+      .info {
+
+        .dansicon {
+          font-size: 18px;
+          transform: translateZ(0px);
+        }
+
+        p {
+          font-size: 12px;
+          margin: 3px 18px 0px 14px;
+          transform: translateZ(0px);
+        }
+
+        h5 {
+          display: none;
+        }
+      }
+    }
+
+    .grid {
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-column-gap: 0px;
+      grid-row-gap: 30px;
+      margin: 0px 0px 0px 0px;
+    }
+  }
+}

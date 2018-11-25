@@ -23,7 +23,8 @@ new Vue({
         icon: "h",
         button: "View Project",
         color: "#4181FE",
-        class: "dropseed"
+        class: "dropseed",
+        lock: false,
       }, {
         title: "Machine Learning",
         subtitle: "",
@@ -31,7 +32,8 @@ new Vue({
         icon: "g",
         button: "View Progress",
         color: "#42CCBC",
-        class: "ml"
+        class: "ml",
+        lock: true,
       }, {
         title: "Big Debt Crises",
         subtitle: "Ray Dalio",
@@ -39,7 +41,8 @@ new Vue({
         icon: "i",
         button: "View Full List",
         color: "#FF6060",
-        class: "reading"
+        class: "reading",
+        lock: true,
       }, 
     ],
     spotlights: [

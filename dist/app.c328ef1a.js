@@ -19738,10 +19738,15 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
+//
 var _default = {
   props: ['squareData', 'index'],
   data: function data() {
-    return {};
+    return {
+      locked: this.squareData.lock
+    };
   },
   methods: {
     openSpotlight: function openSpotlight() {
@@ -19786,14 +19791,25 @@ exports.default = _default;
         _vm._v(_vm._s(_vm.squareData.icon))
       ]),
       _vm._v(" "),
-      _c("button", { on: { click: _vm.openSpotlight } }, [
-        _vm._v(_vm._s(_vm.squareData.button) + " "),
-        _c(
-          "h6",
-          { staticClass: "dansicon", style: { color: _vm.squareData.color } },
-          [_vm._v("j")]
-        )
-      ])
+      !_vm.locked
+        ? _c("button", { on: { click: _vm.openSpotlight } }, [
+            _vm._v(_vm._s(_vm.squareData.button) + " "),
+            _c(
+              "h6",
+              {
+                staticClass: "dansicon",
+                style: { color: _vm.squareData.color }
+              },
+              [_vm._v("j")]
+            )
+          ])
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.locked
+        ? _c("button", { staticClass: "lock" }, [
+            _vm._v("\n    Coming Soon\n  ")
+          ])
+        : _vm._e()
     ]
   )
 }
@@ -19869,6 +19885,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
+//
+//
+//
 var _default = {
   props: ['spotlightData'],
   data: function data() {
@@ -19914,7 +19935,19 @@ exports.default = _default;
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "placeholder" })
+      _c("div", { staticClass: "placeholder" }, [
+        _c("button", [
+          _c(
+            "h6",
+            {
+              staticClass: "dansicon",
+              style: { color: _vm.spotlightData.color }
+            },
+            [_vm._v("j")]
+          ),
+          _vm._v("\n        Back To Top\n      ")
+        ])
+      ])
     ]),
     _vm._v(" "),
     _c("div", { staticClass: "sidebar" }, [
@@ -20009,7 +20042,8 @@ new _vue.default({
       icon: "h",
       button: "View Project",
       color: "#4181FE",
-      class: "dropseed"
+      class: "dropseed",
+      lock: false
     }, {
       title: "Machine Learning",
       subtitle: "",
@@ -20017,7 +20051,8 @@ new _vue.default({
       icon: "g",
       button: "View Progress",
       color: "#42CCBC",
-      class: "ml"
+      class: "ml",
+      lock: true
     }, {
       title: "Big Debt Crises",
       subtitle: "Ray Dalio",
@@ -20025,7 +20060,8 @@ new _vue.default({
       icon: "i",
       button: "View Full List",
       color: "#FF6060",
-      class: "reading"
+      class: "reading",
+      lock: true
     }],
     spotlights: [{
       title: "DropSeed",
@@ -20099,7 +20135,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49163" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62423" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);

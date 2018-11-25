@@ -10,7 +10,12 @@
           <h6 class="dansicon" :style="{ color: spotlightData.color }">h</h6>
         </div>
       </div>
-      <div class="placeholder"></div>
+      <div class="placeholder">
+        <button>
+          <h6 class="dansicon" :style="{ color: spotlightData.color }">j</h6>
+          Back To Top
+        </button>
+      </div>
     </div>
     <div class="sidebar">
       <button @click="closeSpotlight" :style="{ color: spotlightData.color }"><h6 class="dansicon">j</h6></button>

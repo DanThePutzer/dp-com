@@ -99,7 +99,84 @@
   }
 
   .placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100px;
+
+    button {
+      display: flex;
+      align-items: center;
+      font-family: 'Roboto';
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .dansicon {
+      font-size: 22px;
+      transform: rotate(90deg);
+      margin: 0px 10px 0px 0px;
+    }
+  }
+}
+
+/* - - - - - MOBILE - - - - - */
+
+@media screen and (max-width: 800px) {
+
+  #spotlight {
+    position: fixed;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+  
+    .sidebar {
+      position: relative;
+      flex-direction: row;
+      align-items: center;
+      height: 10vh;
+      width: auto;
+      transform: translate(0, 0);
+      padding: 0px 6.5vw 0px 6.5vw;
+  
+      button {
+        margin: 0px 0px 0px 0px;
+      }
+  
+      .social {
+        flex-direction: row;
+  
+        a {
+          margin: 0px 0px 0px 10px;
+        }
+      }
+    }
+  
+    .article {
+      padding: 10vh 6vw 0px 6vw;
+      margin: -10vh 0px 0px 0px;
+  
+      .content {
+        position: relative;
+        padding: 40px 10%;
+        z-index: 10000;
+      }
+  
+      .head {
+  
+        h1 {
+          font-size: 30px;
+          margin: 0px 0px 8px 0px;
+        }
+  
+        h2 {
+          font-size: 18px;
+        }
+  
+        .dansicon {
+          font-size: 25px;
+        }
+      }
+    }
   }
 }
