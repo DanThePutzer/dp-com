@@ -7,7 +7,15 @@
             <h1>{{ spotlightData.title }}</h1>
             <h2>{{ spotlightData.subtitle }}</h2>
           </div>
-          <h6 class="dansicon" :style="{ color: spotlightData.color }">h</h6>
+          <h6 class="dansicon" :style="{ color: spotlightData.color }">{{ spotlightData.icon }}</h6>
+        </div>
+
+        <div class="flow-text">
+          <section class="flow-section" v-for="section in spotlightData.sections">
+            <h4>{{ section.number }}</h4>
+            <h3>{{ section.title }}</h3>
+            <p>{{ section.text }}</p>
+          </section>
         </div>
       </div>
       <div class="placeholder">
@@ -45,18 +53,12 @@
 
 <script>
 
-// import Vue from 'vue';
 import EventBus from '/public/scrpt/bus.js';
-// import VueScrollTo from 'vue-scrollto';
-
-
-// Vue.use(VueScrollTo);
 
 export default {
   props: ['spotlightData'],
   data() {
     return {
-
     }
   },
   methods: {

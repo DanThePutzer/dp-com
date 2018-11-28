@@ -198,15 +198,34 @@
       #spotlight .article .head h1 {
         font-family: 'Roboto';
         font-weight: 900;
-        font-size: 42px;
+        font-size: 55px;
         margin: 0px 0px 15px 0px; }
       #spotlight .article .head h2 {
         font-family: 'Roboto';
         font-weight: 300;
-        font-size: 22px;
+        font-size: 26px;
         color: #6F6F6F; }
       #spotlight .article .head .dansicon {
         font-size: 40px; }
+    #spotlight .article .flow-text {
+      margin: 80px 0px 0px 0px; }
+      #spotlight .article .flow-text .flow-section {
+        margin: 0px 0px 50px 0px; }
+      #spotlight .article .flow-text h4 {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 52px;
+        color: #4181FE; }
+      #spotlight .article .flow-text h3 {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 28px;
+        margin: 10px 0px 25px 0px; }
+      #spotlight .article .flow-text p {
+        font-family: 'Lato';
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 34px; }
   #spotlight .placeholder {
     display: flex;
     align-items: center;
@@ -257,12 +276,31 @@
         padding: 40px 10%;
         z-index: 10000; }
       #spotlight .article .head h1 {
-        font-size: 30px;
+        font-size: 28px;
         margin: 0px 0px 8px 0px; }
       #spotlight .article .head h2 {
-        font-size: 18px; }
+        font-size: 16px; }
       #spotlight .article .head .dansicon {
-        font-size: 25px; } }
+        font-size: 25px; }
+      #spotlight .article .flow-text {
+        margin: 50px 0px 0px 0px; }
+        #spotlight .article .flow-text .flow-section {
+          margin: 0px 0px 50px 0px; }
+        #spotlight .article .flow-text h4 {
+          font-family: 'Montserrat';
+          font-weight: 700;
+          font-size: 36px;
+          color: #4181FE; }
+        #spotlight .article .flow-text h3 {
+          font-family: 'Roboto';
+          font-weight: 700;
+          font-size: 22px;
+          margin: 8px 0px 22px 0px; }
+        #spotlight .article .flow-text p {
+          font-family: 'Lato';
+          font-weight: 500;
+          font-size: 17px;
+          line-height: 26px; } }
 
 body {
   background: #F8F8F8; }

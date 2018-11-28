@@ -81,19 +81,48 @@
       h1 {
         font-family: 'Roboto';
         font-weight: 900;
-        font-size: 42px;
+        font-size: 55px;
         margin: 0px 0px 15px 0px;
       }
 
       h2 {
         font-family: 'Roboto';
         font-weight: 300;
-        font-size: 22px;
+        font-size: 26px;
         color: $subtitleGrey;
       }
 
       .dansicon {
         font-size: 40px;
+      }
+    }
+
+    .flow-text {
+      margin: 80px 0px 0px 0px;
+
+      .flow-section {
+        margin: 0px 0px 50px 0px;
+      }
+
+      h4 {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 52px;
+        color: $dropseedBlue;
+      }
+
+      h3 {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 28px;
+        margin: 10px 0px 25px 0px;
+      }
+
+      p {
+        font-family: 'Lato';
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 34px;
       }
     }
   }
@@ -172,16 +201,45 @@
       .head {
   
         h1 {
-          font-size: 30px;
+          font-size: 28px;
           margin: 0px 0px 8px 0px;
         }
   
         h2 {
-          font-size: 18px;
+          font-size: 16px;
         }
   
         .dansicon {
           font-size: 25px;
+        }
+      }
+
+      .flow-text {
+        margin: 50px 0px 0px 0px;
+  
+        .flow-section {
+          margin: 0px 0px 50px 0px;
+        }
+  
+        h4 {
+          font-family: 'Montserrat';
+          font-weight: 700;
+          font-size: 36px;
+          color: $dropseedBlue;
+        }
+  
+        h3 {
+          font-family: 'Roboto';
+          font-weight: 700;
+          font-size: 22px;
+          margin: 8px 0px 22px 0px;
+        }
+  
+        p {
+          font-family: 'Lato';
+          font-weight: 500;
+          font-size: 17px;
+          line-height: 26px;
         }
       }
     }
