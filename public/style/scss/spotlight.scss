@@ -129,6 +129,7 @@
     position: fixed;
     flex-direction: column-reverse;
     overflow-y: auto;
+    z-index: 1000000;
   
     .sidebar {
       position: relative;
@@ -147,7 +148,8 @@
         flex-direction: row;
   
         a {
-          margin: 0px 0px 0px 10px;
+          font-size: 18px;
+          margin: 0px 0px 0px 12px;
         }
       }
     }

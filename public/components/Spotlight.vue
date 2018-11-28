@@ -21,10 +21,10 @@
       <button @click="closeSpotlight" :style="{ color: spotlightData.color }"><h6 class="dansicon">j</h6></button>
 
       <div class="social">
-        <a href="">e</a>
-        <a href="">d</a>
-        <a href="">f</a>
-        <a href="">c</a>
+        <a href="https://twitter.com/danceladus" target="_blank">d</a>
+        <a href="https://github.com/DanThePutzer" target="_blank">f</a>
+        <a href="https://www.instagram.com/danbuilds" target="_blank">c</a>
+        <a href="https://dribbble.com/danceladus" target="_blank">e</a>
       </div>
     </div>
   </div>
