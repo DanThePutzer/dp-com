@@ -3,12 +3,16 @@
 
 import Vue from 'vue/dist/vue.common';
 import VanillaTilt from 'vanilla-tilt';
+import VueScrollTo from 'vue-scrollto';
 
 /* Importing Components */
 import Square from '/public/components/Square';
 import Spotlight from '/public/components/Spotlight';
 
 import EventBus from '/public/scrpt/bus.js';
+
+
+Vue.use(VueScrollTo);
 
 new Vue({
   el: "#main",

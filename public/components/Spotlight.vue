@@ -11,7 +11,20 @@
         </div>
       </div>
       <div class="placeholder">
-        <button>
+        <button  v-scroll-to="{
+            el: '.container',
+            container: '.article',
+            duration: 500,
+            easing: 'linear',
+            offset: -200,
+            force: true,
+            cancelable: true,
+            onStart: false,
+            onDone: false,
+            onCancel: false,
+            x: false,
+            y: true
+        }">
           <h6 class="dansicon" :style="{ color: spotlightData.color }">j</h6>
           Back To Top
         </button>
@@ -32,7 +45,12 @@
 
 <script>
 
-import EventBus from '/public/scrpt/bus.js'
+// import Vue from 'vue';
+import EventBus from '/public/scrpt/bus.js';
+// import VueScrollTo from 'vue-scrollto';
+
+
+// Vue.use(VueScrollTo);
 
 export default {
   props: ['spotlightData'],
