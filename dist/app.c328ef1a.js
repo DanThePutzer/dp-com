@@ -20640,7 +20640,7 @@ new _vue.default({
       button: "View Progress",
       color: "#42CCBC",
       class: "ml",
-      lock: false
+      lock: true
     }, {
       title: "Big Debt Crises",
       subtitle: "Ray Dalio",
@@ -20649,7 +20649,7 @@ new _vue.default({
       button: "View Full List",
       color: "#FF6060",
       class: "reading",
-      lock: false
+      lock: true
     }],
     spotlights: [{
       title: "DropSeed",
@@ -20663,17 +20663,17 @@ new _vue.default({
         number: '01',
         title: 'The Background',
         text: 'It all started as a personal project, just for us. We found ourselves digging through forests of thoughts spread across many different apps and sloppily written notes. Messages on Slack, files stored on DropBox, notes shared on Evernote and many ideas and random thoughts written down on whatever piece of paper had been nearest. There had to be a better way. As we were planning on working together on many projects in the future, we thought it would be cool to have a platform to base our work on. So we started working on it. With time the concept grew and we decided to make it public for everyone to use. We’d learn a lot about taking a large web app from 0 onto the desktops of users and it might help some people out there channel their inner stream of ideas. A win-win.',
-        image: 'back1.fe7a3fe5.svg'
+        image: ''
       }, {
         number: '02',
         title: 'The Idea',
         text: 'More Tests',
-        image: 'back1.fe7a3fe5.svg'
+        image: ''
       }, {
         number: '03',
         title: 'The Name',
         text: 'Aaaand some more',
-        image: 'back1.fe7a3fe5.svg'
+        image: ''
       }]
     }, {
       title: "Machine Learning",
