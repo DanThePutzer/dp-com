@@ -20230,8 +20230,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
-//
-//
 var _default = {
   props: ['squareData', 'index'],
   data: function data() {
@@ -20298,7 +20296,15 @@ exports.default = _default;
       _vm._v(" "),
       _vm.locked
         ? _c("button", { staticClass: "lock" }, [
-            _vm._v("\n    Coming Soon\n  ")
+            _vm._v("Coming Soon "),
+            _c(
+              "h6",
+              {
+                staticClass: "dansicon",
+                style: { color: _vm.squareData.color }
+              },
+              [_vm._v("k")]
+            )
           ])
         : _vm._e()
     ]

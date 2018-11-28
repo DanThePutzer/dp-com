@@ -84,7 +84,14 @@
       font-size: 15px;
       line-height: 15px;
       transform: rotate(180deg);
-      margin: 0px 0px 0px 12px;
+      margin: 0px 0px 0px 10px;
+    }
+
+    &.lock {
+      .dansicon {
+        transform: rotate(0deg);
+        margin-top: -3px;
+      }
     }
 
     &:hover {

@@ -7,9 +7,7 @@
     </div>
     <h6 class="dansicon">{{ squareData.icon }}</h6>
     <button v-if="!locked" @click="openSpotlight">{{ squareData.button }} <h6 class="dansicon" :style="{ color: squareData.color }">j</h6></button>
-    <button v-if="locked" class="lock">
-      Coming Soon
-    </button>
+    <button v-if="locked" class="lock">Coming Soon <h6 class="dansicon" :style="{ color: squareData.color }">k</h6></button>
   </div>
 </template>
 
