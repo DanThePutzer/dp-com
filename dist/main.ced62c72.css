@@ -225,6 +225,9 @@
     flex-direction: column-reverse;
     overflow-y: auto;
     z-index: 1000000; }
+    #spotlight.visible {
+      transform: scale(1) translateZ(1000px);
+      opacity: 1; }
     #spotlight .sidebar {
       position: relative;
       flex-direction: row;

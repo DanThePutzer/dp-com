@@ -130,6 +130,11 @@
     flex-direction: column-reverse;
     overflow-y: auto;
     z-index: 1000000;
+
+    &.visible {
+      transform: scale(1) translateZ(1000px);
+      opacity: 1;
+    }
   
     .sidebar {
       position: relative;
