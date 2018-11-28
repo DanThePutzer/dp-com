@@ -27,6 +27,11 @@
   padding: 25px 28px 20px 28px;
   transform-style: preserve-3d;
 
+  &.hidden {
+    transition: 0.3s;
+    transform: scale(0) !important;
+  }
+
   h1 {
     font-family: 'Roboto';
     font-weight: 700;
