@@ -8,6 +8,10 @@
 
 body {
   background: $background;
+
+  &.noOverflow {
+    overflow: hidden;
+  }
 }
 
 #main {
