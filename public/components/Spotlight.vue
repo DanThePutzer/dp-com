@@ -105,6 +105,7 @@ export default {
   props: ['spotlightData'],
   data() {
     return {
+
     }
   },
   methods: {
