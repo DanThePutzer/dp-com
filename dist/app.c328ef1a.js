@@ -20492,7 +20492,7 @@ exports.default = _default;
                   "a",
                   {
                     style: { background: _vm.spotlightData.color },
-                    attrs: { href: _vm.spotlightData.link }
+                    attrs: { href: _vm.spotlightData.link, target: "_blank" }
                   },
                   [_vm._v(_vm._s(_vm.spotlightData.button))]
                 )
@@ -21102,7 +21102,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61165" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50014" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
