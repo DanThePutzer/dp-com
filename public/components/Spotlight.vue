@@ -6,7 +6,7 @@
           <div>
             <h1>{{ spotlightData.title }}</h1>
             <h2>{{ spotlightData.subtitle }}</h2>
-            <a v-if="spotlightData.link" :style="{'background': spotlightData.color}" :href="spotlightData.link">{{ spotlightData.button }}</a>
+            <a v-if="spotlightData.link" :style="{'background': spotlightData.color}" :href="spotlightData.link" target="_blank">{{ spotlightData.button }}</a>
           </div>
           <h6 class="dansicon" :style="{ color: spotlightData.color }">{{ spotlightData.icon }}</h6>
         </div>
