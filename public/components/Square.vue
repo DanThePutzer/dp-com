@@ -26,14 +26,11 @@ export default {
     openSpotlight() {
 			EventBus.$emit('openSpotlight', this.index);
     }
-  },
-  mounted() {
-    
   }
 }
 </script>
 
-<style lang="scss"></style>
+<style></style>
 
 
 

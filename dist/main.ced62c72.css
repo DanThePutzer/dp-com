@@ -57,6 +57,9 @@
 .square-reading {
   background: url("back3.3f581d11.svg") center center/cover; }
 
+.square-ui-sunday {
+  background: url("back4.c2e89d1a.svg") center center/cover; }
+
 /* - - - - Square Styling - - - - */
 #square {
   position: relative;
@@ -216,45 +219,6 @@
         color: white; }
       #spotlight .article .head .dansicon {
         font-size: 40px; }
-    #spotlight .article .flow-text {
-      margin: 80px 0px 0px 0px; }
-      #spotlight .article .flow-text .flow-section {
-        margin: 0px 0px 50px 0px; }
-      #spotlight .article .flow-text .flow-image {
-        margin: 60px 5% 20px 5%;
-        width: 95%; }
-        #spotlight .article .flow-text .flow-image img {
-          width: 100%;
-          box-shadow: 0 2px 40px #ebebeb; }
-        #spotlight .article .flow-text .flow-image h2 {
-          font-family: 'Lato';
-          font-weight: 500;
-          font-size: 16px;
-          margin: 15px 0px 0px 10px;
-          opacity: 0.8; }
-          #spotlight .article .flow-text .flow-image h2 span {
-            font-family: 'Lato';
-            font-weight: 700;
-            font-size: 16px; }
-      #spotlight .article .flow-text h4 {
-        font-family: 'Montserrat';
-        font-weight: 700;
-        font-size: 52px;
-        color: #4181FE; }
-      #spotlight .article .flow-text h3 {
-        font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 28px;
-        margin: 10px 0px 25px 0px; }
-      #spotlight .article .flow-text p {
-        font-family: 'Lato';
-        font-weight: 500;
-        font-size: 22px;
-        line-height: 34px; }
-        #spotlight .article .flow-text p.subsection {
-          margin: 30px 40px 0px 40px; }
-        #spotlight .article .flow-text p span {
-          font-weight: 700; }
   #spotlight .placeholder {
     display: flex;
     align-items: center;
@@ -271,6 +235,43 @@
       font-size: 22px;
       transform: rotate(90deg);
       margin: 0px 10px 0px 0px; }
+
+/* Spotlight Content Styling */
+.spotlight-content .flow-image {
+  margin: 60px 5% 20px 5%; }
+  .spotlight-content .flow-image img {
+    width: 100%;
+    box-shadow: 0 2px 40px #ebebeb; }
+  .spotlight-content .flow-image h2 {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 16px;
+    margin: 15px 0px 0px 10px;
+    opacity: 0.8; }
+    .spotlight-content .flow-image h2 span {
+      font-family: 'Lato';
+      font-weight: 700;
+      font-size: 16px; }
+
+.spotlight-content h4 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 52px;
+  color: #4181FE; }
+
+.spotlight-content h3 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 28px;
+  margin: 10px 0px 25px 0px; }
+
+.spotlight-content p {
+  font-family: 'Lato';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 34px; }
+  .spotlight-content p span {
+    font-weight: 700; }
 
 /* - - - - - MOBILE - - - - - */
 @media screen and (max-width: 800px) {
@@ -317,44 +318,41 @@
         border-radius: 2px; }
       #spotlight .article .head .dansicon {
         font-size: 25px; }
-      #spotlight .article .flow-text {
-        margin: 50px 0px 0px 0px; }
-        #spotlight .article .flow-text .flow-section {
-          margin: 0px 0px 50px 0px; }
-        #spotlight .article .flow-text .flow-image {
-          margin: 30px 0px 10px 0px;
-          width: 95%; }
-          #spotlight .article .flow-text .flow-image img {
-            width: 100%;
-            box-shadow: 0 2px 40px #ebebeb; }
-          #spotlight .article .flow-text .flow-image h2 {
-            font-family: 'Lato';
-            font-weight: 500;
-            font-size: 12px;
-            line-height: 16px;
-            margin: 15px 0px 0px 10px;
-            opacity: 0.6; }
-            #spotlight .article .flow-text .flow-image h2 span {
-              font-family: 'Lato';
-              font-weight: 700;
-              font-size: 12px; }
-        #spotlight .article .flow-text h4 {
-          font-family: 'Montserrat';
-          font-weight: 700;
-          font-size: 36px;
-          color: #4181FE; }
-        #spotlight .article .flow-text h3 {
-          font-family: 'Roboto';
-          font-weight: 700;
-          font-size: 22px;
-          margin: 8px 0px 22px 0px; }
-        #spotlight .article .flow-text p {
-          font-family: 'Lato';
-          font-weight: 500;
-          font-size: 17px;
-          line-height: 26px; }
-          #spotlight .article .flow-text p.subsection {
-            margin: 20px 10px 0px 10px; } }
+  /* Spotlight Content Styling */
+  .spotlight-content .flow-image {
+    margin: 30px 0px 10px 0px;
+    width: 95%; }
+    .spotlight-content .flow-image img {
+      width: 100%;
+      box-shadow: 0 2px 40px #ebebeb; }
+    .spotlight-content .flow-image h2 {
+      font-family: 'Lato';
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      margin: 15px 0px 0px 10px;
+      opacity: 0.6; }
+      .spotlight-content .flow-image h2 span {
+        font-family: 'Lato';
+        font-weight: 700;
+        font-size: 12px; }
+  .spotlight-content h4 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 36px;
+    color: #4181FE; }
+  .spotlight-content h3 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    margin: 8px 0px 22px 0px; }
+  .spotlight-content p {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px; }
+    .spotlight-content p.subsection {
+      margin: 20px 10px 0px 10px; } }
 
 body {
   background: #F8F8F8; }
@@ -489,7 +487,8 @@ button {
       #body .big .info h5 {
         display: none; }
     #body .grid {
-      grid-template-rows: 1fr 1fr 1fr;
-      grid-column-gap: 0px;
-      grid-row-gap: 30px;
-      margin: 0px 0px 0px 0px; } }
+      display: flex;
+      flex-direction: column;
+      margin: 0px 0px 0px 0px; }
+      #body .grid #square {
+        margin: 0px 0px 30px 0px; } }

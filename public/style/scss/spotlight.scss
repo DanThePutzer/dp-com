@@ -107,67 +107,6 @@
         font-size: 40px;
       }
     }
-
-    .flow-text {
-      margin: 80px 0px 0px 0px;
-
-      .flow-section {
-        margin: 0px 0px 50px 0px;
-      }
-
-      .flow-image {
-        margin: 60px 5% 20px 5%;
-        width: 95%;
-
-        img {
-          width: 100%;
-          box-shadow: 0 2px 40px #ebebeb;
-        }
-
-        h2 {
-          font-family: 'Lato';
-          font-weight: 500;
-          font-size: 16px;
-          margin: 15px 0px 0px 10px;
-          opacity: 0.8;
-
-          span {
-            font-family: 'Lato';
-            font-weight: 700;
-            font-size: 16px;
-          }
-        }
-      }
-
-      h4 {
-        font-family: 'Montserrat';
-        font-weight: 700;
-        font-size: 52px;
-        color: $dropseedBlue;
-      }
-
-      h3 {
-        font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 28px;
-        margin: 10px 0px 25px 0px;
-      }
-
-      p {
-        font-family: 'Lato';
-        font-weight: 500;
-        font-size: 22px;
-        line-height: 34px;
-
-        &.subsection {
-          margin: 30px 40px 0px 40px;
-        }
-
-        span {
-          font-weight: 700;
-        }
-      }
-    }
   }
 
   .placeholder {
@@ -192,6 +131,64 @@
     }
   }
 }
+
+
+
+
+/* Spotlight Content Styling */
+
+.spotlight-content {
+
+  .flow-image {
+    margin: 60px 5% 20px 5%;
+  
+    img {
+      width: 100%;
+      box-shadow: 0 2px 40px #ebebeb;
+    }
+  
+    h2 {
+      font-family: 'Lato';
+      font-weight: 500;
+      font-size: 16px;
+      margin: 15px 0px 0px 10px;
+      opacity: 0.8;
+  
+      span {
+        font-family: 'Lato';
+        font-weight: 700;
+        font-size: 16px;
+      }
+    }
+  }
+  
+  h4 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 52px;
+    color: $dropseedBlue;
+  }
+  
+  h3 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 28px;
+    margin: 10px 0px 25px 0px;
+  }
+  
+  p {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+  
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+
 
 /* - - - - - MOBILE - - - - - */
 
@@ -264,63 +261,60 @@
           font-size: 25px;
         }
       }
+    }
+  }
 
-      .flow-text {
-        margin: 50px 0px 0px 0px;
-  
-        .flow-section {
-          margin: 0px 0px 50px 0px;
-        }
+  /* Spotlight Content Styling */
 
-        .flow-image {
-          margin: 30px 0px 10px 0px;
-          width: 95%;
-  
-          img {
-            width: 100%;
-            box-shadow: 0 2px 40px #ebebeb;
-          }
-  
-          h2 {
-            font-family: 'Lato';
-            font-weight: 500;
-            font-size: 12px;
-            line-height: 16px;
-            margin: 15px 0px 0px 10px;
-            opacity: 0.6;
-  
-            span {
-              font-family: 'Lato';
-              font-weight: 700;
-              font-size: 12px;
-            }
-          }
-        }
-  
-        h4 {
-          font-family: 'Montserrat';
-          font-weight: 700;
-          font-size: 36px;
-          color: $dropseedBlue;
-        }
-  
-        h3 {
-          font-family: 'Roboto';
-          font-weight: 700;
-          font-size: 22px;
-          margin: 8px 0px 22px 0px;
-        }
-        
-        p {
+  .spotlight-content {
+    
+    .flow-image {
+      margin: 30px 0px 10px 0px;
+      width: 95%;
+
+      img {
+        width: 100%;
+        box-shadow: 0 2px 40px #ebebeb;
+      }
+
+      h2 {
+        font-family: 'Lato';
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        margin: 15px 0px 0px 10px;
+        opacity: 0.6;
+
+        span {
           font-family: 'Lato';
-          font-weight: 500;
-          font-size: 17px;
-          line-height: 26px;
-
-          &.subsection {
-            margin: 20px 10px 0px 10px;
-          }
+          font-weight: 700;
+          font-size: 12px;
         }
+      }
+    }
+
+    h4 {
+      font-family: 'Montserrat';
+      font-weight: 700;
+      font-size: 36px;
+      color: $dropseedBlue;
+    }
+
+    h3 {
+      font-family: 'Roboto';
+      font-weight: 700;
+      font-size: 22px;
+      margin: 8px 0px 22px 0px;
+    }
+    
+    p {
+      font-family: 'Lato';
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 26px;
+
+      &.subsection {
+        margin: 20px 10px 0px 10px;
       }
     }
   }

@@ -11,9 +11,6 @@ import Spotlight from '/public/components/Spotlight';
 
 import EventBus from '/public/scrpt/bus.js';
 
-/* Data */
-import dropseed from './public/data/dropseed.js';
-
 Vue.use(VueScrollTo);
 
 new Vue({
@@ -48,11 +45,29 @@ new Vue({
         button: "View Full List",
         color: "#FF6060",
         class: "reading",
+        lock: false,
+      },
+      {
+        title: "UI Sunday",
+        subtitle: "",
+        type: "DESIGN WORK",
+        icon: "l",
+        button: "View Details",
+        color: "#373737",
+        class: "ui-sunday",
         lock: true,
       }, 
     ],
     spotlights: [
-      dropseed,
+      {
+        title: 'DropSeed',
+        subtitle: 'A Framework For Your Ideas',
+        type: 'PROJECT',
+        icon: 'h',
+        button: 'Visit Website',
+        link: 'http://dropseed.xyz',
+        color: '#4181FE',
+      },
       {
         title: "Machine Learning",
         subtitle: "Just a topic I find really interesting",
@@ -61,7 +76,6 @@ new Vue({
         button: "",
         link: "",
         color: "#42CCBC",
-        class: "ml"
       }, {
         title: "Readings",
         subtitle: "A collection of my most recent readings",
@@ -70,8 +84,16 @@ new Vue({
         button: "",
         link: "",
         color: "#FF6060",
-        class: "reading"
       }, 
+      {
+        title: 'UI Sunday',
+        subtitle: 'Trying to develop my design skills week over week',
+        type: 'PROJECT',
+        icon: 'l',
+        button: 'Check Out My Dribbble',
+        link: 'https://dribbble.com/danceladus',
+        color: '#373737', 
+      },
     ]
   },
   components: {
