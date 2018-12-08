@@ -86,7 +86,7 @@ new Vue({
         color: "#FF6060",
       }, 
       {
-        title: 'UI Sunday',
+        title: 'UI Monday',
         subtitle: 'Trying to develop my design skills week over week',
         type: 'PROJECT',
         icon: 'l',
