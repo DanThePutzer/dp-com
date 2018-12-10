@@ -52,10 +52,10 @@ new Vue({
         subtitle: "",
         type: "DESIGN WORK",
         icon: "l",
-        button: "View Details",
+        button: "Take A Look",
         color: "#373737",
         class: "ui-monday",
-        lock: true,
+        lock: false,
       }, 
     ],
     spotlights: [
