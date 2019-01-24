@@ -1,9 +1,15 @@
 var reading = [
   {
+    title: 'The Big Short',
+    author: 'Micheal Lewis',
+    category: 'Money',
+    current: true
+  },
+  {
     title: 'Big Debt Crises',
     author: 'Ray Dalio',
     category: 'Money',
-    current: true
+    current: false
   },
   {
     title: 'Superintelligence',
