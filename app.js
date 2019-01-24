@@ -38,8 +38,8 @@ new Vue({
         class: "ml",
         lock: true,
       }, {
-        title: "Big Debt Crises",
-        subtitle: "Ray Dalio",
+        title: "The Big Short",
+        subtitle: "Michael Lewis",
         type: "CURRENT READINGS",
         icon: "i",
         button: "View Full List",
