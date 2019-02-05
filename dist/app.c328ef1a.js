@@ -20246,14 +20246,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $c40010 = exports.default || module.exports;
+        var $39eb25 = exports.default || module.exports;
       
-      if (typeof $c40010 === 'function') {
-        $c40010 = $c40010.options;
+      if (typeof $39eb25 === 'function') {
+        $39eb25 = $39eb25.options;
       }
     
         /* template */
-        Object.assign($c40010, (function () {
+        Object.assign($39eb25, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -20355,9 +20355,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$c40010', $c40010);
+            api.createRecord('$39eb25', $39eb25);
           } else {
-            api.reload('$c40010', $c40010);
+            api.reload('$39eb25', $39eb25);
           }
         }
 
@@ -20562,14 +20562,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $400d35 = exports.default || module.exports;
+        var $7cc9c2 = exports.default || module.exports;
       
-      if (typeof $400d35 === 'function') {
-        $400d35 = $400d35.options;
+      if (typeof $7cc9c2 === 'function') {
+        $7cc9c2 = $7cc9c2.options;
       }
     
         /* template */
-        Object.assign($400d35, (function () {
+        Object.assign($7cc9c2, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -20777,9 +20777,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$400d35', $400d35);
+            api.createRecord('$7cc9c2', $7cc9c2);
           } else {
-            api.reload('$400d35', $400d35);
+            api.reload('$7cc9c2', $7cc9c2);
           }
         }
 
@@ -20790,7 +20790,7 @@ render._withStripped = true
       
       }
     })();
-},{"./dropseed.js":"public/components/spotlights/dropseed/dropseed.js","/Users/dan/Dropbox/OwnStuff/Personal Website/Code/dp-com/public/res/DropSeed/img1.png":[["img1.e2a4ee09.png","public/res/DropSeed/img1.png"],"public/res/DropSeed/img1.png"],"/Users/dan/Dropbox/OwnStuff/Personal Website/Code/dp-com/public/res/DropSeed/img2.png":[["img2.96c69b57.png","public/res/DropSeed/img2.png"],"public/res/DropSeed/img2.png"],"/Users/dan/Dropbox/OwnStuff/Personal Website/Code/dp-com/public/res/DropSeed/img3.png":[["img3.12b9b288.png","public/res/DropSeed/img3.png"],"public/res/DropSeed/img3.png"],"/Users/dan/Dropbox/OwnStuff/Personal Website/Code/dp-com/public/res/DropSeed/img4.png":[["img4.8a6f31b6.png","public/res/DropSeed/img4.png"],"public/res/DropSeed/img4.png"],"/Users/dan/Dropbox/OwnStuff/Personal Website/Code/dp-com/public/res/DropSeed/img5.png":[["img5.70a0a480.png","public/res/DropSeed/img5.png"],"public/res/DropSeed/img5.png"],"/Users/dan/Dropbox/OwnStuff/Personal Website/Code/dp-com/public/res/DropSeed/img6.png":[["img6.bb7cdbb7.png","public/res/DropSeed/img6.png"],"public/res/DropSeed/img6.png"],"/Users/dan/Dropbox/OwnStuff/Personal Website/Code/dp-com/public/res/DropSeed/img7.png":[["img7.ac71fdf4.png","public/res/DropSeed/img7.png"],"public/res/DropSeed/img7.png"],"/Users/dan/Dropbox/OwnStuff/Personal Website/Code/dp-com/public/res/DropSeed/img8.png":[["img8.1db953de.png","public/res/DropSeed/img8.png"],"public/res/DropSeed/img8.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"public/components/spotlights/reading/reading.js":[function(require,module,exports) {
+},{"./dropseed.js":"public/components/spotlights/dropseed/dropseed.js","/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/DropSeed/img1.png":[["img1.e2a4ee09.png","public/res/DropSeed/img1.png"],"public/res/DropSeed/img1.png"],"/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/DropSeed/img2.png":[["img2.96c69b57.png","public/res/DropSeed/img2.png"],"public/res/DropSeed/img2.png"],"/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/DropSeed/img3.png":[["img3.12b9b288.png","public/res/DropSeed/img3.png"],"public/res/DropSeed/img3.png"],"/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/DropSeed/img4.png":[["img4.8a6f31b6.png","public/res/DropSeed/img4.png"],"public/res/DropSeed/img4.png"],"/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/DropSeed/img5.png":[["img5.70a0a480.png","public/res/DropSeed/img5.png"],"public/res/DropSeed/img5.png"],"/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/DropSeed/img6.png":[["img6.bb7cdbb7.png","public/res/DropSeed/img6.png"],"public/res/DropSeed/img6.png"],"/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/DropSeed/img7.png":[["img7.ac71fdf4.png","public/res/DropSeed/img7.png"],"public/res/DropSeed/img7.png"],"/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/DropSeed/img8.png":[["img8.1db953de.png","public/res/DropSeed/img8.png"],"public/res/DropSeed/img8.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js","vue-hot-reload-api":"node_modules/vue-hot-reload-api/dist/index.js","vue":"node_modules/vue/dist/vue.runtime.esm.js"}],"public/components/spotlights/reading/reading.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -20905,14 +20905,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $7370a8 = exports.default || module.exports;
+        var $4400da = exports.default || module.exports;
       
-      if (typeof $7370a8 === 'function') {
-        $7370a8 = $7370a8.options;
+      if (typeof $4400da === 'function') {
+        $4400da = $4400da.options;
       }
     
         /* template */
-        Object.assign($7370a8, (function () {
+        Object.assign($4400da, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -21031,9 +21031,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$7370a8', $7370a8);
+            api.createRecord('$4400da', $4400da);
           } else {
-            api.reload('$7370a8', $7370a8);
+            api.reload('$4400da', $4400da);
           }
         }
 
@@ -21128,14 +21128,14 @@ var _default = {
   }
 };
 exports.default = _default;
-        var $bed97a = exports.default || module.exports;
+        var $61a1e9 = exports.default || module.exports;
       
-      if (typeof $bed97a === 'function') {
-        $bed97a = $bed97a.options;
+      if (typeof $61a1e9 === 'function') {
+        $61a1e9 = $61a1e9.options;
       }
     
         /* template */
-        Object.assign($bed97a, (function () {
+        Object.assign($61a1e9, (function () {
           var render = function() {
   var _vm = this
   var _h = _vm.$createElement
@@ -21297,9 +21297,9 @@ render._withStripped = true
         if (api.compatible) {
           module.hot.accept();
           if (!module.hot.data) {
-            api.createRecord('$bed97a', $bed97a);
+            api.createRecord('$61a1e9', $61a1e9);
           } else {
-            api.reload('$bed97a', $bed97a);
+            api.reload('$61a1e9', $61a1e9);
           }
         }
 
@@ -21454,7 +21454,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63272" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58313" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
