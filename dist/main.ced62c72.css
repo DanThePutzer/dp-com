@@ -298,6 +298,8 @@
       transform: translate(0, 0);
       padding: 0px 6.5vw 0px 6.5vw; }
       #spotlight .sidebar button {
+        max-width: 50px;
+        background: red;
         margin: 0px 0px 0px 0px; }
       #spotlight .sidebar .social {
         flex-direction: row; }
@@ -460,6 +462,8 @@ button {
 
 /* - - - - - MOBILE - - - - - */
 @media screen and (max-width: 800px) {
+  body {
+    overflow-y: auto; }
   #body {
     display: flex;
     flex-direction: column;

@@ -219,6 +219,8 @@
       padding: 0px 6.5vw 0px 6.5vw;
   
       button {
+        max-width: 50px;
+        background: red;
         margin: 0px 0px 0px 0px;
       }
   
@@ -235,7 +237,6 @@
     .article {
       padding: 10vh 6vw 0px 6vw;
       margin: -10vh 0px 0px 0px;
-      
   
       .content {
         position: relative;
