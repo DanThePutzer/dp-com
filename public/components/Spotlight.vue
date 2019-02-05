@@ -20,7 +20,7 @@
             el: '.container',
             container: '.article',
             duration: 500,
-            easing: 'linear',
+            easing: 'ease-in',
             offset: -200,
             force: true,
             cancelable: true,
@@ -36,7 +36,25 @@
       </div>
     </div>
     <div class="sidebar">
-      <button @click="closeSpotlight" :style="{ color: spotlightData.color }"><h6 class="dansicon">j</h6></button>
+      <button
+        v-scroll-to="{
+          el: '.container',
+          container: '.article',
+          duration: 500,
+          easing: 'ease',
+          offset: -200,
+          force: true,
+          cancelable: true,
+          onStart: closeSpotlight,
+          onDone: false,
+          onCancel: false,
+          x: false,
+          y: true
+        }"
+        :style="{ color: spotlightData.color }">
+
+        <h6 class="dansicon">j</h6>
+      </button>
 
       <div class="social">
         <a href="https://twitter.com/danceladus" target="_blank">d</a>

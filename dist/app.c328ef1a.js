@@ -21110,6 +21110,24 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* Importing Components for different Spotlights */
 var _default = {
@@ -21193,7 +21211,7 @@ exports.default = _default;
                   el: ".container",
                   container: ".article",
                   duration: 500,
-                  easing: "linear",
+                  easing: "ease-in",
                   offset: -200,
                   force: true,
                   cancelable: true,
@@ -21204,7 +21222,7 @@ exports.default = _default;
                   y: true
                 },
                 expression:
-                  "{\n          el: '.container',\n          container: '.article',\n          duration: 500,\n          easing: 'linear',\n          offset: -200,\n          force: true,\n          cancelable: true,\n          onStart: false,\n          onDone: false,\n          onCancel: false,\n          x: false,\n          y: true\n      }"
+                  "{\n          el: '.container',\n          container: '.article',\n          duration: 500,\n          easing: 'ease-in',\n          offset: -200,\n          force: true,\n          cancelable: true,\n          onStart: false,\n          onDone: false,\n          onCancel: false,\n          x: false,\n          y: true\n      }"
               }
             ]
           },
@@ -21227,8 +21245,29 @@ exports.default = _default;
       _c(
         "button",
         {
-          style: { color: _vm.spotlightData.color },
-          on: { click: _vm.closeSpotlight }
+          directives: [
+            {
+              name: "scroll-to",
+              rawName: "v-scroll-to",
+              value: {
+                el: ".container",
+                container: ".article",
+                duration: 500,
+                easing: "ease",
+                offset: -200,
+                force: true,
+                cancelable: true,
+                onStart: _vm.closeSpotlight,
+                onDone: false,
+                onCancel: false,
+                x: false,
+                y: true
+              },
+              expression:
+                "{\n        el: '.container',\n        container: '.article',\n        duration: 500,\n        easing: 'ease',\n        offset: -200,\n        force: true,\n        cancelable: true,\n        onStart: closeSpotlight,\n        onDone: false,\n        onCancel: false,\n        x: false,\n        y: true\n      }"
+            }
+          ],
+          style: { color: _vm.spotlightData.color }
         },
         [_c("h6", { staticClass: "dansicon" }, [_vm._v("j")])]
       ),
@@ -21454,7 +21493,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64206" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50033" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
