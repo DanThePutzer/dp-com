@@ -34,11 +34,11 @@
 
     .back {
       display: flex;
-      width: 50px !important;
       font-size: 40px;
       margin: 20px 0px 0px 0px;
       align-items: center;
       justify-content: center;
+      padding: 0;
     }
 
     .social {
@@ -219,9 +219,9 @@
       padding: 0px 6.5vw 0px 6.5vw;
   
       .back {
-        width: 50px !important;
         background: red;
         margin: 0px 0px 0px 0px;
+        padding: 0;
       }
   
       .social {
