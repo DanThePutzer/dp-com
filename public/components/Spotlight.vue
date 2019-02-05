@@ -37,6 +37,7 @@
     </div>
     <div class="sidebar">
       <button
+        class="back"
         v-scroll-to="{
           el: '.container',
           container: '.article',

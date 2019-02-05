@@ -21128,6 +21128,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
 
 /* Importing Components for different Spotlights */
 var _default = {
@@ -21267,6 +21268,7 @@ exports.default = _default;
                 "{\n        el: '.container',\n        container: '.article',\n        duration: 500,\n        easing: 'ease',\n        offset: -200,\n        force: true,\n        cancelable: true,\n        onStart: closeSpotlight,\n        onDone: false,\n        onCancel: false,\n        x: false,\n        y: true\n      }"
             }
           ],
+          staticClass: "back",
           style: { color: _vm.spotlightData.color }
         },
         [_c("h6", { staticClass: "dansicon" }, [_vm._v("j")])]
