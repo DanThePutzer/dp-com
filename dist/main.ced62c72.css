@@ -168,9 +168,11 @@
     width: 50px;
     transform: translate(calc(-40vw - 50px), 100px); }
     #spotlight .sidebar button {
-      width: 50px;
+      display: flex;
       font-size: 40px;
-      margin: 20px 0px 0px 0px; }
+      margin: 20px 0px 0px 0px;
+      align-items: center;
+      justify-content: center; }
     #spotlight .sidebar .social {
       display: flex;
       flex-direction: column;
