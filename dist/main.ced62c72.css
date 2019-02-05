@@ -361,7 +361,8 @@
       margin: 20px 10px 0px 10px; } }
 
 body {
-  background: #F8F8F8; }
+  background: #F8F8F8;
+  overflow-y: hidden; }
   body.noOverflow {
     overflow: hidden; }
 
