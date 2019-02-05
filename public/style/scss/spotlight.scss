@@ -9,7 +9,7 @@
   height: 100vh;
   top: 0;
   left: 0;
-  overflow-y: auto;
+  overflow: hidden;
   transition: 0.5s ease-in-out;
   transform: scale(0) translateZ(0);
   opacity: 0;
@@ -62,7 +62,8 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    overflow-y: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     padding: 100px 10% 0px 10%;
 
     .content {
@@ -197,8 +198,6 @@
   #spotlight {
     position: fixed;
     flex-direction: column-reverse;
-    overflow-y: scroll; /* has to be scroll, not auto */
-    -webkit-overflow-scrolling: touch;
     z-index: 1000000;
 
     &.visible {
@@ -232,8 +231,7 @@
     .article {
       padding: 10vh 6vw 0px 6vw;
       margin: -10vh 0px 0px 0px;
-      overflow-y: scroll; /* has to be scroll, not auto */
-      -webkit-overflow-scrolling: touch;
+      
   
       .content {
         position: relative;
