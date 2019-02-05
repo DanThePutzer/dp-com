@@ -169,7 +169,7 @@
     transform: translate(calc(-40vw - 50px), 100px); }
     #spotlight .sidebar .back {
       display: flex;
-      width: 50px;
+      width: 50px !important;
       font-size: 40px;
       margin: 20px 0px 0px 0px;
       align-items: center;
@@ -298,7 +298,7 @@
       transform: translate(0, 0);
       padding: 0px 6.5vw 0px 6.5vw; }
       #spotlight .sidebar .back {
-        width: 50px;
+        width: 50px !important;
         background: red;
         margin: 0px 0px 0px 0px; }
       #spotlight .sidebar .social {
