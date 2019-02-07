@@ -38,8 +38,8 @@ new Vue({
         class: "ml",
         lock: true,
       }, {
-        title: "The Big Short",
-        subtitle: "Michael Lewis",
+        title: "The Theoretical Minimum",
+        subtitle: "Susskind & Hrabosvky",
         type: "CURRENT READINGS",
         icon: "i",
         button: "View Full List",

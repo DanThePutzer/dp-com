@@ -171,12 +171,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"public/style/scss/main.scss":[function(require,module,exports) {
+},{"./bundle-url":"node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"public/icons/icons.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/back1.svg":[["back1.fe7a3fe5.svg","public/res/back1.svg"],"public/res/back1.svg"],"/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/back2.svg":[["back2.2fa5cc35.svg","public/res/back2.svg"],"public/res/back2.svg"],"/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/back3.svg":[["back3.3f581d11.svg","public/res/back3.svg"],"public/res/back3.svg"],"/Users/dan/Google Drive/Various/Personal Website/Code/dp-com/public/res/back4.svg":[["back4.c2e89d1a.svg","public/res/back4.svg"],"public/res/back4.svg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./hinted-dansfont.eot":[["hinted-dansfont.535c0874.eot","public/icons/hinted-dansfont.eot"],"public/icons/hinted-dansfont.eot"],"./hinted-dansfont.woff2":[["hinted-dansfont.7134d7b6.woff2","public/icons/hinted-dansfont.woff2"],"public/icons/hinted-dansfont.woff2"],"./hinted-dansfont.woff":[["hinted-dansfont.aabaa814.woff","public/icons/hinted-dansfont.woff"],"public/icons/hinted-dansfont.woff"],"./hinted-dansfont.ttf":[["hinted-dansfont.b09c511b.ttf","public/icons/hinted-dansfont.ttf"],"public/icons/hinted-dansfont.ttf"],"./hinted-dansfont.svg":[["hinted-dansfont.c31556d0.svg","public/icons/hinted-dansfont.svg"],"public/icons/hinted-dansfont.svg"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;

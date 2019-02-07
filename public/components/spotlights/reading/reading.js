@@ -1,9 +1,15 @@
 var reading = [
   {
+    title: 'The Theoretical Minimum',
+    author: 'Leonard Susskind & George Hrabovsky',
+    category: 'Physics',
+    current: true
+  },
+  {
     title: 'The Big Short',
     author: 'Micheal Lewis',
     category: 'Money',
-    current: true
+    current: false
   },
   {
     title: 'Big Debt Crises',
@@ -39,12 +45,6 @@ var reading = [
     title: 'Principles',
     author: 'Ray Dalio',
     category: 'Life & Work',
-    current: false
-  },
-  {
-    title: 'The Theoretical Minimum',
-    author: 'Leonard Susskind',
-    category: 'Science',
     current: false
   },
   {
