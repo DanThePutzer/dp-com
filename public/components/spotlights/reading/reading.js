@@ -6,6 +6,19 @@ var reading = [
     current: true
   },
   {
+    title: 'The Player Of Games',
+    author: 'Iain M. Banks',
+    category: 'Science Fiction',
+    current: true
+  },
+
+  {
+    title: 'Consider Phlebas',
+    author: 'Iain M. Banks',
+    category: 'Science Fiction',
+    current: false
+  },
+  {
     title: 'The Big Short',
     author: 'Micheal Lewis',
     category: 'Money',
@@ -22,12 +35,6 @@ var reading = [
     author: 'Nick Bostrom',
     category: 'Artificial Intelligence',
     current: false
-  },
-  {
-    title: 'Consider Phlebas',
-    author: 'Iain M. Banks',
-    category: 'Science Fiction',
-    current: true
   },
   {
     title: 'The Intelligent Investor',
