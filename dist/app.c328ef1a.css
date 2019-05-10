@@ -24,6 +24,7 @@
     margin: 0px 8px 0px -14px; }
   #dropseed section {
     margin: 25px 0px 10px 0px; } }
+
 #reading .current, #reading .recent {
   margin: 35px 0px 0px 0px;
   padding: 0px 10px; }
@@ -135,3 +136,4 @@
         display: none;
         text-decoration: none;
         color: #B5B5B5; } }
+

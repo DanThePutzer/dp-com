@@ -49,16 +49,16 @@
 
 /* - - - - Background Assignments - - - - */
 .square-dropseed {
-  background: url("back1.fe7a3fe5.svg") center center/cover; }
+  background: url("/back1.fe7a3fe5.svg") center center/cover; }
 
 .square-ml {
-  background: url("back2.2fa5cc35.svg") center center/cover; }
+  background: url("/back2.2fa5cc35.svg") center center/cover; }
 
 .square-reading {
-  background: url("back3.3f581d11.svg") center center/cover; }
+  background: url("/back3.3f581d11.svg") center center/cover; }
 
 .square-ui-monday {
-  background: url("back4.c2e89d1a.svg") center center/cover; }
+  background: url("/back4.c2e89d1a.svg") center center/cover; }
 
 /* - - - - Square Styling - - - - */
 #square {
@@ -502,3 +502,6 @@ button {
       margin: 0px 0px 0px 0px; }
       #body .grid #square {
         margin: 0px 0px 30px 0px; } }
+
+
+/*# sourceMappingURL=/main.ced62c72.css.map */

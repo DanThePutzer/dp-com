@@ -20,16 +20,16 @@
   "homepage": "https://github.com/DanThePutzer/dp-com#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "node-sass": "^4.9.4",
-    "parcel-bundler": "^1.10.3",
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3",
     "public": "^0.1.4",
-    "vanilla-tilt": "^1.5.0",
-    "vue": "^2.5.17",
-    "vue-hot-reload-api": "^2.3.1",
-    "vue-scrollto": "^2.13.0"
+    "vanilla-tilt": "^1.7.0",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3",
+    "vue-scrollto": "^2.15.0"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^2.3.0",
-    "vue-template-compiler": "^2.5.17"
+    "@vue/component-compiler-utils": "^2.6.0",
+    "vue-template-compiler": "^2.6.10"
   }
 }

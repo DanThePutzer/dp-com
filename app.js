@@ -38,8 +38,8 @@ new Vue({
         class: "ml",
         lock: true,
       }, {
-        title: "The Theoretical Minimum",
-        subtitle: "Susskind & Hrabosvky",
+        title: "Homo Deus",
+        subtitle: "Yuval Noah Harari",
         type: "CURRENT READINGS",
         icon: "i",
         button: "View Full List",

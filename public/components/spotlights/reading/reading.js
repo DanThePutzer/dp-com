@@ -1,8 +1,8 @@
 var reading = [
   {
-    title: 'The Theoretical Minimum',
-    author: 'Leonard Susskind & George Hrabovsky',
-    category: 'Physics',
+    title: 'Homo Deus',
+    author: 'Yuval Noah Harari',
+    category: 'Philosophy',
     current: true
   },
   {
@@ -12,6 +12,12 @@ var reading = [
     current: true
   },
 
+  {
+    title: 'The Theoretical Minimum',
+    author: 'Leonard Susskind & George Hrabovsky',
+    category: 'Physics',
+    current: false
+  },
   {
     title: 'Consider Phlebas',
     author: 'Iain M. Banks',
