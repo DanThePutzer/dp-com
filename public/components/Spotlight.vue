@@ -13,6 +13,7 @@
 
         <drop-seed v-if="spotlightData.title == 'DropSeed'"></drop-seed>
         <reading v-if="spotlightData.title == 'Readings'"></reading>
+        <design v-if="spotlightData.title == 'UI & UX Design'"></design>
 
       </div>
       <div class="placeholder">
@@ -73,6 +74,7 @@
 
 import DropSeed from '/public/components/spotlights/dropseed/Dropseed.vue'
 import Reading from '/public/components/spotlights/reading/Reading.vue'
+import Design from '/public/components/spotlights/design/Design.vue'
 
 import EventBus from '/public/scrpt/bus.js';
 
@@ -89,7 +91,7 @@ export default {
     }
   },
   components: {
-    DropSeed, Reading
+    DropSeed, Reading, Design
   }
 }
 </script>

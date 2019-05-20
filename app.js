@@ -87,10 +87,10 @@ new Vue({
       }, 
       {
         title: 'UI & UX Design',
-        subtitle: 'Trying to develop my design skills week over week',
+        subtitle: 'Designs created in my free time and for personal projects',
         type: 'PROJECT',
         icon: 'l',
-        button: 'Check Out My Dribbble',
+        button: 'Check Out My Dribbble Profile',
         link: 'https://dribbble.com/danceladus',
         color: '#373737', 
       },
