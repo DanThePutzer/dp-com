@@ -48,7 +48,7 @@ new Vue({
         lock: false,
       },
       {
-        title: "UI Monday",
+        title: "UI & UX Design",
         subtitle: "",
         type: "DESIGN WORK",
         icon: "l",
@@ -86,7 +86,7 @@ new Vue({
         color: "#FF6060",
       }, 
       {
-        title: 'UI Monday',
+        title: 'UI & UX Design',
         subtitle: 'Trying to develop my design skills week over week',
         type: 'PROJECT',
         icon: 'l',

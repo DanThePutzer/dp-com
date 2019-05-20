@@ -144,7 +144,7 @@ var dropseed = [
   {
     number: '05',
     title: "The 'We'",
-    text: 'We’ve been using the pronoun ‘we’ a lot, so who is ‘we’? We’re Aaron and Daniel, two university students from northern Italy who like to build things together. This is our first, large scale project and we hope to work on many more in the future with DropSeed as our foundation. As we will rely on feedback and suggestions, the ‘we’ also includes you if you choose to try out DropSeed. We’re looking forward to bringing the platform online and plan to do so towards the end of 2018.',
+    text: "We’ve been using the pronoun ‘we’ a lot, so who is ‘we’? We’re Aaron and Daniel, two university students from northern Italy who like to build things together. This is our first, large scale project and we hope to work on many more in the future with DropSeed as our foundation. As we will rely on feedback and suggestions, the ‘we’ also includes you if you choose to try out DropSeed. We’re looking forward to bringing the platform online as soon as it's ready",
     image: '',
   },
 ]

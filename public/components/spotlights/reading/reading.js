@@ -6,12 +6,18 @@ var reading = [
     current: true
   },
   {
-    title: 'The Player Of Games',
-    author: 'Iain M. Banks',
+    title: 'Dune',
+    author: 'Frank Herbert',
     category: 'Science Fiction',
     current: true
   },
 
+  {
+    title: 'The Player Of Games',
+    author: 'Iain M. Banks',
+    category: 'Science Fiction',
+    current: false
+  },
   {
     title: 'The Theoretical Minimum',
     author: 'Leonard Susskind & George Hrabovsky',
