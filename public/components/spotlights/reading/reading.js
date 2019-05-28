@@ -13,6 +13,12 @@ var reading = [
   },
 
   {
+    title: 'Zero To One',
+    author: 'Peter Thiel & Blake Masters',
+    category: 'Entrepreneurship',
+    current: false
+  },
+  {
     title: 'The Player Of Games',
     author: 'Iain M. Banks',
     category: 'Science Fiction',
@@ -70,6 +76,12 @@ var reading = [
     title: 'Artemis',
     author: 'Andy Weir',
     category: 'Science Fiction',
+    current: false
+  },
+  {
+    title: 'The Four',
+    author: 'Scott Galloway',
+    category: 'Entrepreneurship',
     current: false
   }
 ]
