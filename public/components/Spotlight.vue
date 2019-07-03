@@ -14,6 +14,7 @@
         <drop-seed v-if="spotlightData.title == 'DropSeed'"></drop-seed>
         <reading v-if="spotlightData.title == 'Readings'"></reading>
         <design v-if="spotlightData.title == 'UI & UX Design'"></design>
+        <ai v-if="spotlightData.title == 'Artificial Intelligence'"></ai>
 
       </div>
       <div class="placeholder">
@@ -75,6 +76,7 @@
 import DropSeed from '/public/components/spotlights/dropseed/Dropseed.vue'
 import Reading from '/public/components/spotlights/reading/Reading.vue'
 import Design from '/public/components/spotlights/design/Design.vue'
+import Ai from '/public/components/spotlights/ai/Ai.vue'
 
 import EventBus from '/public/scrpt/bus.js';
 
@@ -91,7 +93,7 @@ export default {
     }
   },
   components: {
-    DropSeed, Reading, Design
+    DropSeed, Reading, Design, Ai
   }
 }
 </script>

@@ -16,8 +16,8 @@ Vue.use(VueScrollTo);
 new Vue({
   el: "#main",
   data: {
-    showSpotlight: false,
-    activeSpotlight: 0,
+    showSpotlight: true,
+    activeSpotlight: 1,
     squares: [
       {
         title: "DropSeed",
@@ -29,17 +29,17 @@ new Vue({
         class: "dropseed",
         lock: false,
       }, {
-        title: "Machine Learning",
+        title: "Artificial Intelligence",
         subtitle: "",
         type: "CURRENT STUDIES",
         icon: "g",
-        button: "View Progress",
+        button: "See Work",
         color: "#42CCBC",
         class: "ml",
-        lock: true,
+        lock: false,
       }, {
-        title: "Homo Deus",
-        subtitle: "Yuval Noah Harari",
+        title: "Why Wall Street Matters",
+        subtitle: "William D. Cohan",
         type: "CURRENT READINGS",
         icon: "i",
         button: "View Full List",
@@ -69,8 +69,8 @@ new Vue({
         color: '#4181FE',
       },
       {
-        title: "Machine Learning",
-        subtitle: "Just a topic I find really interesting",
+        title: "Artificial Intelligence",
+        subtitle: "The single, most powerful building block of the future.",
         type: "CURRENT STUDIES",
         icon: "g",
         button: "",

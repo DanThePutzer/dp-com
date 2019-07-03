@@ -1,6 +1,6 @@
 <template>
   <div id="design" class="spotlight-content">
-    <p>{{ text.text }}</p>
+    <p>{{ content.text }}</p>
     <img src="/public/res/dribbbleShot.png" alt="">
   </div>
 </template>
@@ -13,15 +13,9 @@ import spotlightData from './design.js'
 export default {
   data() {
     return {
-      text: spotlightData
+      content: spotlightData
     }
   },
-  computed: {
-
-  },
-  mounted() {
-    console.log(spotlightData)
-  }
 }
 </script>
 

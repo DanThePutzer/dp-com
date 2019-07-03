@@ -1,7 +1,7 @@
 var reading = [
   {
-    title: 'Homo Deus',
-    author: 'Yuval Noah Harari',
+    title: 'Why Wall Street Matters',
+    author: 'William D. Cohan',
     category: 'Philosophy',
     current: true
   },
@@ -12,6 +12,12 @@ var reading = [
     current: true
   },
 
+  {
+    title: 'Homo Deus',
+    author: 'Yuval Noah Harari',
+    category: 'Philosophy',
+    current: false
+  },
   {
     title: 'Zero To One',
     author: 'Peter Thiel & Blake Masters',
