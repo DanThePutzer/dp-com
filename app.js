@@ -16,7 +16,7 @@ Vue.use(VueScrollTo);
 new Vue({
   el: "#main",
   data: {
-    showSpotlight: true,
+    showSpotlight: false,
     activeSpotlight: 1,
     squares: [
       {
