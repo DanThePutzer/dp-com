@@ -38,8 +38,8 @@ new Vue({
         class: "ml",
         lock: false,
       }, {
-        title: "Why Wall Street Matters",
-        subtitle: "William D. Cohan",
+        title: "The Quantum Divide",
+        subtitle: "C. Gerry & K. Bruno",
         type: "CURRENT READINGS",
         icon: "i",
         button: "View Full List",

@@ -1,8 +1,8 @@
 var reading = [
   {
-    title: 'Why Wall Street Matters',
-    author: 'William D. Cohan',
-    category: 'Philosophy',
+    title: 'The Quantum Divide',
+    author: 'Christopher Gerry & Kimberley Bruno',
+    category: 'Physics',
     current: true
   },
   {
@@ -12,6 +12,18 @@ var reading = [
     current: true
   },
 
+  {
+    title: 'Life 3.0',
+    author: 'Max Tegmark',
+    category: 'Artificial Intelligence',
+    current: false
+  },
+  {
+    title: 'Why Wall Street Matters',
+    author: 'William D. Cohan',
+    category: 'Money',
+    current: false
+  },
   {
     title: 'Homo Deus',
     author: 'Yuval Noah Harari',
