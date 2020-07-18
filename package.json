@@ -20,8 +20,9 @@
   "homepage": "https://github.com/DanThePutzer/dp-com#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "node-sass": "^4.12.0",
-    "parcel-bundler": "^1.12.3",
+    "minimist": "^1.2.3",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
     "public": "^0.1.4",
     "vanilla-tilt": "^1.7.0",
     "vue": "^2.6.10",
