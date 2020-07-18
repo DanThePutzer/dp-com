@@ -10,10 +10,10 @@ The whole thing is built on VueJs, bundled with Parcel and hosted on Netlify.
 ### Installation & Usage
 
 ```node
-# After cloning, install all dependencies
+/* After cloning, install all dependencies */
 npm install
 
-# Then run the application locally
+/* Then run the application locally */
 npm run start
 ```
 
