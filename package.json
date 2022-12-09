@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/DanThePutzer/dp-com#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "minimist": "^1.2.3",
     "node-sass": "^4.14.1",
     "parcel-bundler": "^1.12.4",
